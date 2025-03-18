@@ -25,7 +25,7 @@ data_source = pw.io.jsonlines.read(
     metadata=pw.this.metadata
 )
 
-# Assemble the DocumentStore:
+# Assemble the DocumentStore by creating a 'data' column (as bytes) and mapping metadata.
 data_source = data_source.select(
     data = pw.apply(
         lambda ts, sensor, reading, intensity: 
@@ -35,43 +35,22 @@ data_source = data_source.select(
     _metadata = pw.this.metadata
 )
 
-# Set up embedder
+# Set up embedder and retriever factory
 embedder = embedders.SentenceTransformerEmbedder(model="all-MiniLM-L12-v2")
-
-# Use BruteForceKnnFactory for retrieval
 retriever_factory = BruteForceKnnFactory(embedder=embedder)
 
-# Create DocumentStore
+# Create the DocumentStore
 store = DocumentStore(
     docs=data_source,
     retriever_factory=retriever_factory,
 )
 
-# Read queries
-query = pw.io.fs.read(
-    "queries.csv",
-    format="csv",
-    schema=DocumentStore.RetrieveQuerySchema
-)
-
-# Debug prints to show indexed data and loaded queries
-stored_data = pw.debug.table_to_pandas(data_source)
-print("\nIndexed Data:")
-print(stored_data.to_string(index=False))
-
-print("\nQueries Loaded:")
-print(query.to_string(index=False))
-
-# Retrieve documents based on the queries
-results = store.retrieve_query(query)
-
-# Convert results to Pandas DataFrame for display
-results_pd = pw.debug.table_to_pandas(results)
-
-if not results_pd.empty:
-    print("\nRetrieved Documents:")
-    print(results_pd.to_string(index=False))
-else:
-    print("\nNo matching documents found.")
-
-pw.run()
+# Optional: If you run pipeline.py directly, you can run the computation.
+if __name__ == "__main__":
+    # Optionally print some debug info
+    stored_data = pw.debug.table_to_pandas(data_source)
+    print("\nIndexed Data:")
+    print(stored_data.to_string(index=False))
+    
+    # This call is blocking; if you run this file directly, it starts the pipeline.
+    pw.run()
