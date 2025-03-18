@@ -51,36 +51,26 @@
    git clone https://github.com/RSKMN/rag-intelligence.git
    cd rag-intelligence
 
-##Set Up Your Virtual Environment:
+## Set Up Your Virtual Environment:
      python -m venv myenv
     source myenv/bin/activate  # On Windows: myenv\Scripts\activate
 
-##Install Dependencies:
+## Install Dependencies:
 pip install -r requirements.txt
 
-1. Run the Pipeline
+# 1. Run the Pipeline
 python pipeline.py
 
 
-2. Run the REST API Server
+# 2. Run the REST API Server
 python server.py
 
 
-3. Run the Streamlit Dashboard
+ # 3. Run the Streamlit Dashboard
 streamlit run app.py
 
 
 
-Project Structure
 
-rag-intelligence/
-├── pipeline.py          # Builds the DocumentStore and handles data ingestion
-├── server.py            # Runs the REST API server exposing memory retrieval endpoints
-├── app.py               # Streamlit dashboard for interactive query submission and visualization
-├── simulated_data.jsonl # Sensor data source (generated via a simulation script)
-├── queries.csv          # CSV file containing sample queries for testing retrieval
-├── llm_module.py        # (Optional) Module for local LLM integration
-├── requirements.txt     # Python dependencies
-└── README.md            # This file
 
 
