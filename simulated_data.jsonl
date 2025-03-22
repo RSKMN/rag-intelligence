@@ -75,3 +75,48 @@
 {"timestamp": "2025-03-22T07:39:26.759612", "sensor": "emotion", "reading": "excited", "intensity": 0.65, "metadata": {"location": "office", "device_id": "device_38", "battery_level": 51.44}}
 {"timestamp": "2025-03-22T07:39:30.849396", "sensor": "humidity", "reading": "39.26", "intensity": 0.84, "metadata": {"location": "park", "device_id": "device_19", "battery_level": 38.98}}
 {"timestamp": "2025-03-22T07:39:35.793196", "sensor": "humidity", "reading": "32.34", "intensity": 0.42, "metadata": {"location": "home", "device_id": "device_12", "battery_level": 33.51}}
+{"timestamp": "2025-03-22T07:39:41.286825", "sensor": "auditory", "reading": "thunder rumbling", "intensity": 0.34, "metadata": {"location": "street", "device_id": "device_17", "battery_level": 91.56}}
+{"timestamp": "2025-03-22T07:39:46.639943", "sensor": "humidity", "reading": "78.85", "intensity": 0.34, "metadata": {"location": "street", "device_id": "device_50", "battery_level": 60.46}}
+{"timestamp": "2025-03-22T07:39:52.113933", "sensor": "olfactory", "reading": "aromatic spices", "intensity": 0.52, "metadata": {"location": "office", "device_id": "device_68", "battery_level": 93.25}}
+{"timestamp": "2025-03-22T07:39:57.904400", "sensor": "temperature", "reading": "35.79", "intensity": 0.25, "metadata": {"location": "street", "device_id": "device_99", "battery_level": 80.34}}
+{"timestamp": "2025-03-22T07:40:02.885015", "sensor": "tactile", "reading": "warm", "intensity": 0.33, "metadata": {"location": "street", "device_id": "device_98", "battery_level": 70.48}}
+{"timestamp": "2025-03-22T07:40:07.450681", "sensor": "olfactory", "reading": "burnt rubber", "intensity": 0.57, "metadata": {"location": "park", "device_id": "device_33", "battery_level": 57.49}}
+{"timestamp": "2025-03-22T07:40:12.984826", "sensor": "olfactory", "reading": "burnt rubber", "intensity": 0.38, "metadata": {"location": "restaurant", "device_id": "device_2", "battery_level": 75.35}}
+{"timestamp": "2025-03-22T07:40:18.864056", "sensor": "tactile", "reading": "warm", "intensity": 0.61, "metadata": {"location": "home", "device_id": "device_61", "battery_level": 99.9}}
+{"timestamp": "2025-03-22T07:40:23.275672", "sensor": "humidity", "reading": "85.1", "intensity": 0.11, "metadata": {"location": "office", "device_id": "device_2", "battery_level": 11.97}}
+{"timestamp": "2025-03-22T07:40:29.094676", "sensor": "tactile", "reading": "rough", "intensity": 0.42, "metadata": {"location": "home", "device_id": "device_84", "battery_level": 35.01}}
+{"timestamp": "2025-03-22T07:40:33.934381", "sensor": "visual", "reading": "an abstract painting", "intensity": 0.67, "metadata": {"location": "restaurant", "device_id": "device_12", "battery_level": 18.89}}
+{"timestamp": "2025-03-22T07:40:39.227618", "sensor": "visual", "reading": "an abstract painting", "intensity": 0.04, "metadata": {"location": "office", "device_id": "device_33", "battery_level": 87.59}}
+{"timestamp": "2025-03-22T07:40:45.124614", "sensor": "temperature", "reading": "35.22", "intensity": 0.93, "metadata": {"location": "home", "device_id": "device_13", "battery_level": 61.35}}
+{"timestamp": "2025-03-22T07:40:50.875674", "sensor": "temperature", "reading": "28.23", "intensity": 0.91, "metadata": {"location": "park", "device_id": "device_73", "battery_level": 96.62}}
+{"timestamp": "2025-03-22T07:40:55.498407", "sensor": "visual", "reading": "a quiet park", "intensity": 0.76, "metadata": {"location": "restaurant", "device_id": "device_87", "battery_level": 65.24}}
+{"timestamp": "2025-03-22T07:40:59.934841", "sensor": "temperature", "reading": "27.12", "intensity": 0.31, "metadata": {"location": "restaurant", "device_id": "device_86", "battery_level": 35.53}}
+{"timestamp": "2025-03-22T07:41:05.496936", "sensor": "emotion", "reading": "sad", "intensity": 0.15, "metadata": {"location": "office", "device_id": "device_41", "battery_level": 90.68}}
+{"timestamp": "2025-03-22T07:41:09.576075", "sensor": "auditory", "reading": "cars honking", "intensity": 0.72, "metadata": {"location": "street", "device_id": "device_11", "battery_level": 28.03}}
+{"timestamp": "2025-03-22T07:41:14.513119", "sensor": "temperature", "reading": "29.6", "intensity": 0.66, "metadata": {"location": "office", "device_id": "device_2", "battery_level": 35.47}}
+{"timestamp": "2025-03-22T07:41:19.686686", "sensor": "gustatory", "reading": "sweet", "intensity": 0.37, "metadata": {"location": "restaurant", "device_id": "device_8", "battery_level": 29.55}}
+{"timestamp": "2025-03-22T07:41:24.897231", "sensor": "temperature", "reading": "38.57", "intensity": 0.51, "metadata": {"location": "street", "device_id": "device_14", "battery_level": 11.94}}
+{"timestamp": "2025-03-22T07:41:29.890242", "sensor": "temperature", "reading": "27.21", "intensity": 0.12, "metadata": {"location": "street", "device_id": "device_45", "battery_level": 25.11}}
+{"timestamp": "2025-03-22T07:41:35.705323", "sensor": "emotion", "reading": "sad", "intensity": 0.23, "metadata": {"location": "home", "device_id": "device_17", "battery_level": 32.8}}
+{"timestamp": "2025-03-22T07:41:40.789970", "sensor": "humidity", "reading": "73.92", "intensity": 0.92, "metadata": {"location": "park", "device_id": "device_23", "battery_level": 63.42}}
+{"timestamp": "2025-03-22T07:41:46.173412", "sensor": "temperature", "reading": "21.54", "intensity": 0.99, "metadata": {"location": "street", "device_id": "device_55", "battery_level": 26.06}}
+{"timestamp": "2025-03-22T07:41:51.879058", "sensor": "visual", "reading": "an abstract painting", "intensity": 0.39, "metadata": {"location": "home", "device_id": "device_7", "battery_level": 36.7}}
+{"timestamp": "2025-03-22T07:41:55.957915", "sensor": "gustatory", "reading": "sweet", "intensity": 0.13, "metadata": {"location": "restaurant", "device_id": "device_6", "battery_level": 61.0}}
+{"timestamp": "2025-03-22T07:42:01.277854", "sensor": "humidity", "reading": "49.48", "intensity": 0.04, "metadata": {"location": "park", "device_id": "device_49", "battery_level": 59.97}}
+{"timestamp": "2025-03-22T07:42:06.354389", "sensor": "temperature", "reading": "27.81", "intensity": 0.9, "metadata": {"location": "home", "device_id": "device_55", "battery_level": 17.55}}
+{"timestamp": "2025-03-22T07:42:11.025137", "sensor": "visual", "reading": "a quiet park", "intensity": 0.47, "metadata": {"location": "home", "device_id": "device_54", "battery_level": 26.87}}
+{"timestamp": "2025-03-22T07:42:16.588568", "sensor": "temperature", "reading": "29.64", "intensity": 0.15, "metadata": {"location": "home", "device_id": "device_90", "battery_level": 80.06}}
+{"timestamp": "2025-03-22T07:42:20.603727", "sensor": "auditory", "reading": "soft piano music", "intensity": 0.34, "metadata": {"location": "office", "device_id": "device_64", "battery_level": 34.79}}
+{"timestamp": "2025-03-22T07:42:25.652799", "sensor": "tactile", "reading": "smooth", "intensity": 0.42, "metadata": {"location": "home", "device_id": "device_83", "battery_level": 85.12}}
+{"timestamp": "2025-03-22T07:42:30.852968", "sensor": "tactile", "reading": "cold", "intensity": 0.07, "metadata": {"location": "home", "device_id": "device_61", "battery_level": 16.53}}
+{"timestamp": "2025-03-22T07:42:35.039370", "sensor": "auditory", "reading": "soft piano music", "intensity": 0.31, "metadata": {"location": "restaurant", "device_id": "device_95", "battery_level": 38.26}}
+{"timestamp": "2025-03-22T07:42:40.851660", "sensor": "visual", "reading": "a vibrant market", "intensity": 0.74, "metadata": {"location": "street", "device_id": "device_50", "battery_level": 82.02}}
+{"timestamp": "2025-03-22T07:42:45.211341", "sensor": "visual", "reading": "an abstract painting", "intensity": 0.45, "metadata": {"location": "street", "device_id": "device_58", "battery_level": 73.35}}
+{"timestamp": "2025-03-22T07:42:50.690244", "sensor": "auditory", "reading": "distant conversation", "intensity": 0.13, "metadata": {"location": "park", "device_id": "device_34", "battery_level": 14.46}}
+{"timestamp": "2025-03-22T07:42:56.504445", "sensor": "visual", "reading": "a quiet park", "intensity": 0.05, "metadata": {"location": "office", "device_id": "device_54", "battery_level": 14.28}}
+{"timestamp": "2025-03-22T07:43:01.725080", "sensor": "emotion", "reading": "calm", "intensity": 0.58, "metadata": {"location": "restaurant", "device_id": "device_41", "battery_level": 33.36}}
+{"timestamp": "2025-03-22T07:43:07.195491", "sensor": "temperature", "reading": "21.09", "intensity": 0.61, "metadata": {"location": "restaurant", "device_id": "device_57", "battery_level": 16.52}}
+{"timestamp": "2025-03-22T07:43:13.054402", "sensor": "auditory", "reading": "distant conversation", "intensity": 0.14, "metadata": {"location": "restaurant", "device_id": "device_5", "battery_level": 18.47}}
+{"timestamp": "2025-03-22T07:43:18.187098", "sensor": "tactile", "reading": "rough", "intensity": 0.05, "metadata": {"location": "home", "device_id": "device_17", "battery_level": 85.14}}
+{"timestamp": "2025-03-22T07:43:23.708687", "sensor": "temperature", "reading": "25.04", "intensity": 0.78, "metadata": {"location": "restaurant", "device_id": "device_41", "battery_level": 70.93}}
+{"timestamp": "2025-03-22T07:43:28.237883", "sensor": "temperature", "reading": "25.83", "intensity": 0.76, "metadata": {"location": "street", "device_id": "device_31", "battery_level": 59.9}}
