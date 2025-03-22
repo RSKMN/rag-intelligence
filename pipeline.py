@@ -13,7 +13,7 @@ class InputSchema(pw.Schema):
 
 # Read the JSONL file in streaming mode and explicitly convert "reading" to a string
 data_source = pw.io.jsonlines.read(
-    "/root/RAG/simulated_data.jsonl",
+    "simulated_data.jsonl",
     schema=InputSchema,
     with_metadata=True,
     mode="streaming"   # Enable streaming mode
